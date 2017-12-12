@@ -1,0 +1,11 @@
+group 'org.windsurfer.search.ocean'
+version '1.8'
+
+def jarName = 'ocean-proto'
+sourceCompatibility = 1.8
+
+apply from: "${rootDir}/common/gradle/proto.gradle"
+
+jar {
+    baseName "${jarName}"
+}

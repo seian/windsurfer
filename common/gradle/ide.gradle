@@ -1,0 +1,57 @@
+apply plugin: 'eclipse'
+
+// Eclipse by default uses the current directory name as the project name.
+// This is problematic as currently we just use "proto" or "service" for many project dirs.
+// So this concatenates the parent directory one level above to the project name
+eclipse.project {
+    if (project == rootProject) {
+        name = rootProject.name
+    } else {
+        name = project.path.substring(project.path.lastIndexOf(':', project.path.lastIndexOf(':') - 1) + 1).replace(':', '-')
+    }
+}
+
+afterEvaluate {
+    // Adds protobuf generated source for IntelliJ
+    def protoDir = project.file('src/main/proto')
+    if (plugins.any{it.class.name.contains("Protobuf")} && protoDir.isDirectory() && protoDir.listFiles().length > 0) {
+        apply plugin: 'idea'
+        idea {
+            module {
+                if (project == rootProject) {
+                    name = rootProject.name
+                } else {
+                    name = project.path.substring(project.path.lastIndexOf(':', project.path.lastIndexOf(':') - 1) + 1).replace(':', '-')
+                }
+                // Not using generatedSourceDirs because of
+                // https://discuss.gradle.org/t/support-for-intellij-2016/15294/8
+                sourceDirs += file("${projectDir}/build/generated/source/proto/main/java");
+                sourceDirs += file("${projectDir}/build/generated/source/proto/main/grpc");
+            }
+        }
+    }
+
+    eclipse.classpath {
+        // Adds protobuf generate source for eclipse
+        if (plugins.any{it.class.name.contains("Protobuf")} && protoDir.isDirectory() && protoDir.listFiles().length > 0) {
+            // If it's a protobuf project then add generate source directories
+            file.whenMerged { cp ->
+                cp.entries.add( new org.gradle.plugins.ide.eclipse.model.SourceFolder('build/generated/source/proto/main/java', null) )
+                cp.entries.add( new org.gradle.plugins.ide.eclipse.model.SourceFolder('build/generated/source/proto/main/grpc', null) )
+            }
+        }
+
+        // Currently we use some internal JDK APIs (namely HttpServer). However, Eclipse by default checks that we
+        //   are only using the public JDK APIs, so for now this removes that check.
+        // TODO Migrate off of internal JDK APIs
+        containers.removeAll { it.startsWith("org.eclipse.jdt.launching.JRE_CONTAINER") }
+        containers.add("org.eclipse.jdt.launching.JRE_CONTAINER")
+
+        // This adds transitive dependencies by dependent project's dependencies if it's a shadow configuration
+        //   This is currently here to resolve the hbasewrapper dependency issue
+        plusConfigurations += project.configurations.
+                findAll{ it.name == 'compile' }.
+                collect{it.dependencies.findAll{ it.hasProperty("targetConfiguration") && it.targetConfiguration=='shadow' && it instanceof org.gradle.api.artifacts.ProjectDependency }.collect{it.dependencyProject.configurations} }.
+                flatten().findAll{it.name == 'compile'}
+    }
+}
