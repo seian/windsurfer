@@ -7,6 +7,10 @@ import org.junit.Test;
 
 import javax.annotation.Nullable;
 
+import java.util.concurrent.TimeUnit;
+
+import static org.junit.Assert.assertEquals;
+
 public class TestOceanClient {
 
 	private String localhost = "localhost:8888";
@@ -20,8 +24,8 @@ public class TestOceanClient {
 			Futures.addCallback(response, new FutureCallback<OceanResponse>() {
 				@Override
 				public void onSuccess(@Nullable OceanResponse result) {
-					System.out.println(1);
 					System.out.println(result.getResponse());
+					assertEquals("test", result.getResponse());
 				}
 
 				@Override
@@ -29,9 +33,7 @@ public class TestOceanClient {
 
 				}
 			});
-			while(true) {
-
-			}
+			TimeUnit.SECONDS.sleep(2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

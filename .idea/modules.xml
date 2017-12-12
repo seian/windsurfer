@@ -27,7 +27,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/ocean/ocean_main.iml" filepath="$PROJECT_DIR$/.idea/modules/search/ocean/ocean_main.iml" group="search/ocean" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/ocean/ocean_test.iml" filepath="$PROJECT_DIR$/.idea/modules/search/ocean/ocean_test.iml" group="search/ocean" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/search.iml" filepath="$PROJECT_DIR$/.idea/modules/search/search.iml" group="search" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/client/search-client.iml" filepath="$PROJECT_DIR$/.idea/modules/search/client/search-client.iml" group="search/client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/client/search-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/search/client/search-client_main.iml" group="search/client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/client/search-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/search/client/search-client_test.iml" group="search/client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/search_main.iml" filepath="$PROJECT_DIR$/.idea/modules/search/search_main.iml" group="search" />

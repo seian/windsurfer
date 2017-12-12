@@ -17,7 +17,10 @@ public class OceanClient {
 		ip = host.split(":")[0];
 		port = Integer.parseInt(host.split(":")[1]);
 
-		ManagedChannel managedChannel = ManagedChannelBuilder.forAddress(ip, port).build();
+		ManagedChannel managedChannel = ManagedChannelBuilder
+				.forAddress(ip, port)
+				.usePlaintext(true)
+				.build();
 		futureStub = OceanServiceGrpc.newFutureStub(managedChannel);
 	}
 
