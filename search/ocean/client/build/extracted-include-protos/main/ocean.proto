@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.windsurfer.search.ocean";
+
+import "google/protobuf/any.proto";
+
+package org.windsurfer.search.ocean;
+
+service OceanService {
+    rpc Search(OceanRequest) returns (OceanResponse) {
+
+    }
+}
+
+message OceanRequest {
+    string query = 1;
+}
+
+message OceanResponse {
+    string response = 1;
+}

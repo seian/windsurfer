@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="beach-proto_main" target="1.8" />
+      <module name="beach-proto_test" target="1.8" />
+      <module name="beach-service_integration" target="1.8" />
+      <module name="beach-service_main" target="1.8" />
+      <module name="beach-service_test" target="1.8" />
+      <module name="beach_main" target="1.8" />
+      <module name="beach_test" target="1.8" />
+      <module name="client_integration" target="1.8" />
+      <module name="client_main" target="1.8" />
+      <module name="client_test" target="1.8" />
+      <module name="ocean-client_integration" target="1.8" />
+      <module name="ocean-client_main" target="1.8" />
+      <module name="ocean-client_test" target="1.8" />
+      <module name="ocean-ocean-service_main" target="1.8" />
+      <module name="ocean-ocean-service_test" target="1.8" />
+      <module name="ocean-proto_main" target="1.8" />
+      <module name="ocean-proto_test" target="1.8" />
+      <module name="ocean-service_integration" target="1.8" />
+      <module name="ocean-service_main" target="1.8" />
+      <module name="ocean-service_test" target="1.8" />
+      <module name="ocean_main" target="1.8" />
+      <module name="ocean_test" target="1.8" />
+      <module name="proto_main" target="1.8" />
+      <module name="proto_test" target="1.8" />
+      <module name="search-client_main" target="1.8" />
+      <module name="search-client_test" target="1.8" />
+      <module name="search_main" target="1.8" />
+      <module name="search_test" target="1.8" />
+      <module name="service_integration" target="1.8" />
+      <module name="service_main" target="1.8" />
+      <module name="service_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

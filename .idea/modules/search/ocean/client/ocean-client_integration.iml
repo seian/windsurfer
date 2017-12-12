@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":search:ocean:client:integration" external.linked.project.path="$MODULE_DIR$/../../../../../search/ocean/client" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="org.windsurfer.search.ocean" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../../../search/ocean/client/build/classes/integration" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../search/ocean/client/src/integration">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../search/ocean/client/src/integration/resources" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../search/ocean/client/src/integrationtest">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../search/ocean/client/src/integrationtest/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
