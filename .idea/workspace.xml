@@ -2,23 +2,219 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a9d693-1bc8-4984-94c3-497df43b156f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/search/client/build/libs/client.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/search/client/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/jvmClassSignatures.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/ocean/client/build/classes/main/org/windsurfer/search/ocean/OceanClient.class" afterPath="$PROJECT_DIR$/search/ocean/client/build/classes/main/org/windsurfer/search/ocean/OceanClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/ocean/client/build/classes/test/org/windsurfer/search/ocean/TestOceanClient$1.class" afterPath="$PROJECT_DIR$/search/ocean/client/build/classes/test/org/windsurfer/search/ocean/TestOceanClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/ocean/client/build/classes/test/org/windsurfer/search/ocean/TestOceanClient.class" afterPath="$PROJECT_DIR$/search/ocean/client/build/classes/test/org/windsurfer/search/ocean/TestOceanClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/ocean/client/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/search/ocean/client/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/build/libs/beach.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/Beach$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/Beach.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachRequest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachRequest$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachRequestOrBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachResponse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachResponse$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachResponseOrBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachServiceGrpc$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachServiceGrpc$BeachServiceBlockingStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachServiceGrpc$BeachServiceFutureStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachServiceGrpc$BeachServiceImplBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachServiceGrpc$BeachServiceStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachServiceGrpc$MethodHandlers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/classes/main/org/windsurfer/search/beach/BeachServiceGrpc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/beach.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/extracted-include-protos/test/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/generated/source/proto/main/grpc/org/windsurfer/search/beach/BeachServiceGrpc.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/generated/source/proto/main/java/org/windsurfer/search/beach/Beach.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/generated/source/proto/main/java/org/windsurfer/search/beach/BeachRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/generated/source/proto/main/java/org/windsurfer/search/beach/BeachRequestOrBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/generated/source/proto/main/java/org/windsurfer/search/beach/BeachResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/generated/source/proto/main/java/org/windsurfer/search/beach/BeachResponseOrBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/libs/beach-proto-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/resources/main/beach.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/proto/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/classes/main/org/windsurfer/search/beach/BeachService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/beach.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/beach.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/extracted-include-protos/test/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/libs/beach-service-1.0-SNAPSHOT-all.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/libs/beach-service-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/beach/service/build/tmp/shadowJar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/build/libs/search.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/build/libs/ocean.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/classes/main/org/windsurfer/search/ocean/OceanClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/classes/test/org/windsurfer/search/ocean/TestOceanClient$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/classes/test/org/windsurfer/search/ocean/TestOceanClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/main/ocean.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/extracted-include-protos/test/ocean.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/libs/ocean-client-1.0-SNAPSHOT-all.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/libs/ocean-client-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/client/build/tmp/shadowJar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/Ocean$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/Ocean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanRequest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanRequest$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanRequestOrBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanResponse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanResponse$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanResponseOrBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanServiceGrpc$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanServiceGrpc$MethodHandlers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanServiceGrpc$OceanServiceBlockingStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanServiceGrpc$OceanServiceFutureStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanServiceGrpc$OceanServiceImplBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanServiceGrpc$OceanServiceStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/classes/main/org/windsurfer/search/ocean/OceanServiceGrpc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/extracted-include-protos/test/ocean.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/generated/source/proto/main/grpc/org/windsurfer/search/ocean/OceanServiceGrpc.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/generated/source/proto/main/java/org/windsurfer/search/ocean/Ocean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/generated/source/proto/main/java/org/windsurfer/search/ocean/OceanRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/generated/source/proto/main/java/org/windsurfer/search/ocean/OceanRequestOrBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/generated/source/proto/main/java/org/windsurfer/search/ocean/OceanResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/generated/source/proto/main/java/org/windsurfer/search/ocean/OceanResponseOrBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/libs/ocean-proto-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/resources/main/ocean.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/proto/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/classes/main/org/windsurfer/search/ocean/OceanService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/classes/main/org/windsurfer/search/ocean/OceanWebDebugger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/classes/main/org/windsurfer/search/ocean/OceanWebHandlerEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/classes/main/org/windsurfer/search/ocean/WebDebugger/WebPageBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/classes/main/org/windsurfer/search/ocean/WebDebugger/WebPageRoot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/classes/main/org/windsurfer/search/ocean/WebDebugger/WebPageSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/beach.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/main/ocean.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/beach.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/any.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/api.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/duration.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/field_mask.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/source_context.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/struct.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/timestamp.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/type.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/google/protobuf/wrappers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/extracted-include-protos/test/ocean.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/libs/ocean-service-1.0-SNAPSHOT-all.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/libs/ocean-service-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/resources/main/log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/ocean/service/build/tmp/shadowJar/MANIFEST.MF" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/ocean/client/src/main/java/org.windsurfer.search.ocean/OceanClient.java" afterPath="$PROJECT_DIR$/search/ocean/client/src/main/java/org.windsurfer.search.ocean/OceanClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/ocean/client/src/test/java/org.windsurfer.search.ocean/TestOceanClient.java" afterPath="$PROJECT_DIR$/search/ocean/client/src/test/java/org.windsurfer.search.ocean/TestOceanClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -122,16 +318,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebPageRoot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/ocean/service/src/main/java/org/windsurfer/search/ocean/WebDebugger/WebPageRoot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WebPageSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search/ocean/service/src/main/java/org/windsurfer/search/ocean/WebDebugger/WebPageSystem.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,10 +352,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestOceanClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestOceanClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search/ocean/client/src/test/java/org.windsurfer.search.ocean/TestOceanClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="316">
               <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,11 +364,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OceanServiceGrpc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/ocean/proto/build/generated/source/proto/main/grpc/org/windsurfer/search/ocean/OceanServiceGrpc.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="159" column="105" lean-forward="false" selection-start-line="159" selection-start-column="105" selection-end-line="159" selection-end-column="105" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -3071,6 +3257,7 @@
         <option value="$PROJECT_DIR$/search/ocean/client/src/main/java/org.windsurfer.search.ocean/OceanClient.java" />
         <option value="$PROJECT_DIR$/search/ocean/proto/src/main/proto/ocean.proto" />
         <option value="$PROJECT_DIR$/search/ocean/client/src/test/java/org.windsurfer.search.ocean/TestOceanClient.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -3243,24 +3430,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="proto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windsurfer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windsurfer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beach" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3995,7 +4164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512793606653</updated>
       <workItem from="1512793686373" duration="12877000" />
-      <workItem from="1513084192567" duration="7323000" />
+      <workItem from="1513084192567" duration="7596000" />
     </task>
     <servers />
   </component>
@@ -4032,7 +4201,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20200000" />
+    <option name="totallyTimeSpent" value="20473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -4058,9 +4227,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4403,11 +4572,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search/ocean/client/src/test/java/org.windsurfer.search.ocean/TestOceanClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="316">
           <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
