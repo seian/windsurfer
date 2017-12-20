@@ -33,6 +33,8 @@ public class TestOceanClient {
 
 				}
 			});
+			// We could make the response wait in async mode,
+			// but we measure the time out as well.
 			TimeUnit.SECONDS.sleep(2);
 		} catch (Exception e) {
 			e.printStackTrace();
