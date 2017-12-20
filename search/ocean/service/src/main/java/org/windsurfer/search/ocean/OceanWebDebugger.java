@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.windsurfer.search.ocean.WebDebugger.WebPageBase;
 import org.windsurfer.search.ocean.WebDebugger.WebPageRoot;
+import org.windsurfer.search.ocean.WebDebugger.WebPageSearcher;
 import org.windsurfer.search.ocean.WebDebugger.WebPageSystem;
 
 import java.io.IOException;
@@ -18,6 +19,7 @@ public class OceanWebDebugger implements HttpHandler {
 	private static Map<OceanWebHandlerEnum, WebPageBase> pages =
 			ImmutableMap.<OceanWebHandlerEnum, WebPageBase>builder()
 					.put(OceanWebHandlerEnum.ROOT, new WebPageRoot())
+					.put(OceanWebHandlerEnum.SEARCHER, new WebPageSearcher())
 					.put(OceanWebHandlerEnum.SYS, new WebPageSystem())
 					.build();
 

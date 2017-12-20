@@ -1,6 +1,6 @@
 package org.windsurfer.search.ocean.WebDebugger;
 
-public class WebPageRoot implements WebPageBase {
+public class WebPageRoot extends WebPageBaseImpl {
 	@Override
 	public String viewer() {
 		StringBuilder html = new StringBuilder();

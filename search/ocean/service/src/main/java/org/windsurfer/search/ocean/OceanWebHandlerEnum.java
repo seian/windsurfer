@@ -2,7 +2,8 @@ package org.windsurfer.search.ocean;
 
 public enum OceanWebHandlerEnum {
 	ROOT("/"),
-	SYS("/sys");
+	SYS("/sys"),
+	SEARCHER("/searcher");
 
 	private String val;
 	OceanWebHandlerEnum(String val) {

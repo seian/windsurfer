@@ -1,6 +1,6 @@
 package org.windsurfer.search.ocean.WebDebugger;
 
-public class WebPageSystem implements WebPageBase {
+public class WebPageSystem extends WebPageBaseImpl {
 	public String getSystemInfo() {
 		StringBuilder html = new StringBuilder();
 		html.append("<h1>System Status -WindSurfer</h1>");
